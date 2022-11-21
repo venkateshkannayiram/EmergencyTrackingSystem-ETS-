@@ -9,6 +9,9 @@ Firebase is a Backend-as-a-Service (Baas). It provides developers with a variety
 # About the Project
 In several situations delayed emergency services which lead to someone's death/result in serious injury. The application was created to search for nearby emergency responders based on the user's needs.
 
+# Pre-Requirements
+1. Android device with Android 6.0 or above.
+
 # User Guide
 1. After installing the app, open and give the required permissions.
 
