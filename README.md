@@ -3,6 +3,9 @@ A location-based service (LBS) is a software service for mobile device applicati
 
 Location-based services integrate data from various resources, including Global Positioning System (GPS) satellites, cellular tower pings and short-range positioning beacons, to provide services based on the user's geographical location. Although location-based technologies have been commercially available for almost two decades, the applications and services that use geodata have recently become mainstream.
 
+# What is FrieBase?
+Firebase is a Backend-as-a-Service (Baas). It provides developers with a variety of tools and services to help them develop quality apps, grow their user base, and earn profit. It is built on Google's infrastructure. Firebase is categorized as a NoSQL database program, which stores data in JSON-like documents.
+
 # About the Project
 In several situations delayed emergency services which lead to someone's death/result in serious injury. The application was created to search for nearby emergency responders based on the user's needs.
 
