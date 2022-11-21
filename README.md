@@ -26,4 +26,6 @@ In several situations delayed emergency services which lead to someone's death/r
 # Link to download the app
 https://drive.google.com/file/d/187W2nV5Tjj_LBe-oBhzv3NvRBb_JK-Kz/view?usp=share_link
 
-# Project Screenshots
+# Project Demo Video
+https://user-images.githubusercontent.com/90943529/203063650-75e426f0-617f-49ef-927e-91c1c3801de5.mp4
+
