@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/setting" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <fragment android:name="com.google.android.gms.maps.SupportMapFragment" android:id="@+id/map3" android:layout_width="match_parent" android:layout_height="200dp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20sp">
+            <TextView android:textColor="@color/basePressColor" android:id="@+id/rideLocation" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20sp" android:text="From - To"/>
+            <TextView android:textColor="@color/basePressColor" android:id="@+id/rideDistance" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20sp" android:text="Distance"/>
+            <TextView android:textColor="@color/basePressColor" android:id="@+id/rideDate" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20sp" android:text="Date"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/userImage" android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/ic_default_user"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="20sp">
+                <TextView android:textColor="@color/basePressColor" android:id="@+id/userName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20sp" android:text="Name"/>
+                <TextView android:textColor="@color/basePressColor" android:id="@+id/userPhone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20sp" android:text="Phone"/>
+            </LinearLayout>
+        </LinearLayout>
+        <RatingBar android:layout_gravity="center" android:id="@+id/ratingBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:stepSize="1"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

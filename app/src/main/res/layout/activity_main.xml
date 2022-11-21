@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/emergency" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:textSize="20sp" android:textStyle="bold" android:textColor="@color/MainButton" android:id="@+id/responder" android:background="@color/MainButtonBackground" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="550sp" android:text="@string/i_m_a_responder"/>
+    <Button android:textSize="20sp" android:textStyle="bold" android:textColor="@color/MainButton" android:id="@+id/user" android:background="@color/MainButtonBackground" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="10sp" android:text="@string/i_m_a_user"/>
+</LinearLayout>

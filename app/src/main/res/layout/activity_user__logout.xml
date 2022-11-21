@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/setting" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/ets" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_centerHorizontal="true">
+        <TextView android:textSize="30sp" android:textStyle="italic" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10sp" android:text="Emergency Tracking System" android:textAlignment="center"/>
+        <TextView android:textSize="30sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="RIDE" android:textAlignment="center"/>
+    </LinearLayout>
+    <TextView android:textSize="12sp" android:textColor="@color/bottomText" android:id="@+id/Version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="V 1.0" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAlignment="center"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/alert" android:layout_width="match_parent" android:layout_height="450dp" android:layout_marginTop="20sp" android:layout_below="@+id/ets">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="180sp" android:layout_height="180sp" android:src="@drawable/logo"/>
+        <TextView android:textSize="28sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20sp" android:text="Logout-Alert!..."/>
+        <TextView android:textSize="20sp" android:textStyle="italic" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20sp" android:text="Are You Sure You Would Like to Sign-Out?"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/alert" android:layout_centerHorizontal="true">
+        <Button android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@+id/cancel" android:background="@android:color/holo_blue_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CANCEL" android:layout_marginEnd="120sp"/>
+        <Button android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@+id/sign_out" android:background="@android:color/holo_blue_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SIGNOUT"/>
+    </LinearLayout>
+</RelativeLayout>

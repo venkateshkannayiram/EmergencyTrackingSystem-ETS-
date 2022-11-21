@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/rootLayout" android:background="@drawable/background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_centerHorizontal="true">
+        <ImageButton android:layout_gravity="start" android:id="@+id/back_button" android:background="@drawable/arrow_back_black" android:layout_width="40sp" android:layout_height="30sp"/>
+        <TextView android:textSize="30sp" android:textStyle="italic" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10sp" android:text="Emergency Tracking System" android:textAlignment="center"/>
+        <TextView android:textSize="30sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="RIDE" android:textAlignment="center"/>
+    </LinearLayout>
+    <TextView android:textSize="12sp" android:textColor="@color/bottomText" android:id="@+id/Version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="V 1.0" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAlignment="center"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="46dp" android:weightSum="2" android:layout_above="@+id/Version">
+        <Button android:textColor="@android:color/white" android:id="@+id/btnSignIn" android:background="@drawable/btn_sign_in_background" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:text="SIGN IN" android:layout_weight="1"/>
+        <Button android:textColor="@color/btnRegister" android:id="@+id/btnRegister" android:background="@drawable/btn_register_background" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="REGISTER" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/layout_forgot_password" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/Version">
+        <Button android:textSize="20dp" android:textColor="@android:color/holo_blue_dark" android:id="@+id/btn_forgot_password_Customer" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Forgot your password?" android:textAllCaps="false"/>
+    </LinearLayout>
+</RelativeLayout>
